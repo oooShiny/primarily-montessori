@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200');
+
+body {
+    margin: 0;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+}
+
+.page-header {
+    display: grid;
+    justify-items: center;
+}
+.navigation {
+    padding: 1em 5%;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.row {
+    display: grid;
+    padding: 1em 5%;
+    justify-items: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer div {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.socialmedia {
+    width: 55px !important;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+/**
+ Card Layout
+ */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: stretch;
+}
+
