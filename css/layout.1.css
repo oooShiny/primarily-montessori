@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:200');
+
+body {
+    margin: 0;
+}
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wrapper > * {
+    flex: 1 100%;
+}
+
+.page-header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+/* Large */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+  /* Medium screens */
+  @media all and (max-width: 800px) {
+    .navigation {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    .navigation {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
+.row {
+    display: grid;
+    padding: 1em 5%;
+    justify-items: center;
+}
+
+.footer {
+    width: 100%;
+}
+
+.footer div {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.socialmedia {
+    width: 55px !important;
+}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+/**
+ Card Layout
+ */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: stretch;
+}
+
