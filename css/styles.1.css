@@ -23,7 +23,8 @@ h1 {
 }
 
 h2 {
-    font-size: 1.7em
+    font-size: 1.7em;
+    text-align: center;
 }
 
 .hero h2 {
@@ -36,17 +37,26 @@ p {
     font-size: 1.2em;
 }
 
+.img-med {
+    height: 12em;
+}
+
 .navigation div {
-    padding: .75em 1em;
-    margin: .5em;}
+    margin: .5em;
+}
 
 a.button {
+    border: 1px solid #8e344e;
     text-decoration: none;
     color: #8e344e;
     font-family: 'Cinzel', serif;
     text-transform: lowercase;
+    padding: .75em 1em;
 }
 
+.navigation a.button {
+    border: none;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -61,11 +71,13 @@ a.button {
 
 .dropdown-content a {
     float: none;
-    color: black;
+    color: #8e344e;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: 'Cinzel', serif;
+    text-transform: lowercase;
 }
 
 .dropdown-content a:hover {
