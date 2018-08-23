@@ -93,8 +93,6 @@ a.button {
 .card {
     box-shadow: 0px 1px 5px #555;
     border: 1px solid #fafafa;
-    border-radius: 4px;
-    padding: .5rem;
 /*    background: #fafafa;
 */}
 
@@ -117,7 +115,7 @@ a.button {
 
 .footer {
     /* background-image: url('../images/PM_watercolor_bg_simple.png'); */
-    min-height: 600px;
+    /* min-height: 600px; */
     background-size: cover;
 }
 
