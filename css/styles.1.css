@@ -1,7 +1,6 @@
 body {
     font-family: 'Muli', sans-serif;
-    background-color: #fdf5df;
-    /* background-image: url("../images/blue-watercolor-light.gif"); */
+    background-color: #f1f4fb;
     background-repeat: no-repeat;
     background-position: 50% 0;
     -ms-background-size: cover;
@@ -12,7 +11,7 @@ body {
 }
 
 h1, h2 {
-    color: #8f344e;
+    color: #471f5a;
     font-family: 'Cinzel', serif;
     font-weight: 100;
     text-transform: lowercase;
@@ -33,6 +32,11 @@ h2 {
     padding: 5em 0 5em 0;
 }
 
+img.logo {
+    height: 100px;
+    padding-top: 1em;
+}
+
 p {
     font-size: 1.2em;
 }
@@ -46,9 +50,9 @@ p {
 }
 
 a.button {
-    border: 1px solid #8e344e;
+    border: 1px solid #471f5a;
     text-decoration: none;
-    color: #8e344e;
+    color: #471f5a;
     font-family: 'Cinzel', serif;
     text-transform: lowercase;
     padding: .75em 1em;
@@ -64,14 +68,14 @@ a.button {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #fdf5df;
+    background-color: #f1f4fb;
     min-width: 160px;
     z-index: 1;
 }
 
 .dropdown-content a {
     float: none;
-    color: #8e344e;
+    color: #471f5a;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
@@ -81,7 +85,7 @@ a.button {
 }
 
 .dropdown-content a:hover {
-    background-color: #e7e0cb;
+    background-color: #dcdfe4;
 }
 
 
@@ -92,7 +96,7 @@ a.button {
 
 .card {
     box-shadow: 0px 1px 5px #555;
-    border: 1px solid #fafafa;
+    border: 1px solid #471f5a;
 /*    background: #fafafa;
 */}
 
@@ -102,7 +106,7 @@ a.button {
 }
 
 .dark {
-    background-color: #ccc2a8;
+    background-color: #c4cee4;
 }
 
 .card-title {
