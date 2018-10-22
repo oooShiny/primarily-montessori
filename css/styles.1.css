@@ -39,6 +39,12 @@ p {
     height: 12em;
 }
 
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 .navigation div {
     margin: .5em;
 }
@@ -115,6 +121,10 @@ a.button {
     /* background-image: url('../images/PM_watercolor_bg_simple.png'); */
     /* min-height: 600px; */
     background-size: cover;
+}
+
+.footer-nav ul li {
+    display: inline;
 }
 
 .footer img {
