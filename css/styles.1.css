@@ -131,6 +131,10 @@ a.button {
     font-size: 1em;
 }
 
+.footer {
+    background: #d4d9e3;
+}
+
 .footer-nav ul li {
     display: inline;
 }
