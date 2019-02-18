@@ -125,3 +125,7 @@ body {
 .quarters {
     width: 72%;
 }
+
+.center {
+  text-align: center;
+}
