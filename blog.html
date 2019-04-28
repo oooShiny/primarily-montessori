@@ -1,0 +1,69 @@
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+    <link href="css/layout.1.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.1.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="wrapper">
+        <div class="row top-bar">
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/PrimarilyMontessori/" target="_blank"><img src="images/facebook_black.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/primarilymontessori/" target="_blank"><img src="images/instagram_black.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <!-- Page Header and Navigation -->
+        <div class="page-header">
+            <!--Navigation bar-->
+            <div id="nav-placeholder"></div>
+            <!--end of Navigation bar-->
+        </div>
+            <div class="hero" style="background-image: url('images/header-hands.jpg');">
+                <h2>&nbsp;</h2>
+            </div>
+            <!-- Page Content -->
+            <div class="page-content">
+            <div class="row">
+                <h2>Our Blog</h2>
+            </div>
+            <div class="row cards">
+                <div class="card quarter">
+                    <a href="blog/birthday.html">
+                        <img src="images/blog/blog_birthday.png" alt="Birthday Blog">
+                        <span class="card-title">Birthdays</span>
+                        <p>Written by Jacqui Westgeest</p>
+                        <p>28 April 2019</p>
+                    </a>
+                </div>
+                <div class="card quarter">
+                    <a href="blog/travel.html">
+                        <img src="images/blog/blog_travel.png" alt="Travel Blog">
+                        <span class="card-title">Travel</span>
+                        <p>Written by Jacqui Westgeest</p>
+                        <p>24 April 2019</p>
+                    </a>
+                </div>
+                <div class="card quarter">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row footer">
+                <div class="footer-copy">&copy; 2018 Primarily Montessori, LLC </div>
+                <div class="footer-nav">
+                </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(function(){
+      $(".page-header").load("nav.html");
+      $(".footer-nav").load("nav-footer.html");
+    });
+</script>
+</body>
+</html>
