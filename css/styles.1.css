@@ -105,6 +105,7 @@ a.button {
 .hero {
     background-color: black;
     background-position: center;
+    background-size: cover;
 }
 
 .card {
